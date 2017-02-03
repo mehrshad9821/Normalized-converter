@@ -1,0 +1,35 @@
+Script started on Wed 09 Mar 2016 06:15:10 PM PST
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ exitas gcd.s -o gcd.o[1Pgcc -c testgcd.sas gcd.s -o gcd.o
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ as gcd.s -o gcd.oexit[Kas gcd.s -o gcd.o[1Pgcc -c testgcd.sS -Og testgcd.c
+testgcd.c: In function ‘main’:
+testgcd.c:19:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+  scanf("%u", &a);
+       ^
+testgcd.c:22:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+  scanf("%u", &b);
+       ^
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ gcc -S -Og testgcd.c[3Pas gcd.s -o gcd.oexit[Kas gcd.s -o gcd.o[1Pgcc -c testgcd.s
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ gcc -c testgcd.sS -Og testgcd.c[3Pas gcd.s -o gcd.oexit[Kas gcd.s -o gcd.o[1Pgcc -c testgcd.sS -Og testgcd.c[4Pc testgcd.sS -Og testgcd.cexit[K./rungcc rmpy2.o gcd2.o testrmppy.o -o run[A]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./rungcc testgcd.o gcd2.o -o ruun[K[A]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ gcc testgcd.o gcd2.o -o run[C[1P[1P[1P[1P[1P[1P[1@g[1@c[1@d[1@.[1@o
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ ./run
+Enter the first argument: 96
+Enter the second argument: 33
+3
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ ./rungcc testgcd.o gcd.o -o run./run[K
+Enter the first argument: 12
+Enter the second argument: 25
+1
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ ./run
+Enter the first argument: 17
+Enter the second argument: 51
+17
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ ./run
+Enter the first argument: 1
+Enter the second argument: 10
+1
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ ./run
+Enter the first argument: 10  
+Enter the second argument: 1
+1
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ exit
+Script done on Wed 09 Mar 2016 06:17:02 PM PST

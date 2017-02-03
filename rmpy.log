@@ -1,0 +1,44 @@
+Script started on Wed 09 Mar 2016 06:17:32 PM PST
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ exit./rungcc testgcd.o gcd.o -o run[10P-c testgcd.sS -Og testgcd.c[3Pas gcd.s -o gcd.o[1P.o[1P.o[1P.o[1P.o .or.o,.op.ou.o[1P.o[1P.o[1P.om.op.oy.o[1P[1P[1P[1@r[1@m[1@p[1@y
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ as rmpy.s -o rmpy.oexit[K./rungcc testgcd.o gcd.o -o run[10P-c testgcd.sS -Og testgcd.c[1P.c[1P.c[1P.c[1P.c[1P.cs.ct.cr.cm.cp.cy.c
+testrmpy.c: In function ‘main’:
+testrmpy.c:18:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+  scanf("%u / %u", &r1[0], &r1[1]);
+       ^
+testrmpy.c:26:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+  scanf("%u / %u", &r2[0], &r2[1]);
+       ^
+testrmpy.c:44:7: warning: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Wunused-result]
+  scanf("%s", &again[0]);
+       ^
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ gcc -c testrmpy.s
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ gcc -c testrmpy.sS -Og testrmpy.c[2Pas rmpy.s -o rmpy.oexit[K./rungcc testgcd.o gcd.o -o run[C[1@ [1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[1P[C[1@ [C[C[C[C[C[C[C[C[1@ [1@t[1@e[1@s[1@t[1@r[1@m[1@p[1@y[1@.[1@o[C[C[1@ [1@r[1@m[1@p[1@y.  -o run [A]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp  -o runn[A]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+gcc: error: rmpy.p: No such file or directory
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ gcc  gcd.o testrmpy.o rmpy.p  -o runn[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  -o run [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co  -o runn[A]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ gcc  gcd.o testrmpy.o rmpy.o  -o runn[A]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp
+[C[A]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ [C[C[C[C[18P-c testrmpy.s
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CS -Og testrmpy.c[2Pas rmpy.s -o rmpy.oexit[K./run
+Enter 1st rational number: 3 / 8
+Enter 2nd rational number: 25 / 12
+prod = 25 / 32 
+Continue(y/n)?.....y
+Enter 1st rational number: 9 / 32
+Enter 2nd rational number: 32 / 3
+prod = 3 / 1 
+Continue(y/n)?.....y
+Enter 1st rational number: 4 / 8
+Enter 2nd rational number: 3 / 9
+prod = 1 / 6 
+Continue(y/n)?.....y
+Enter 1st rational number: 0 / 12
+Enter 2nd rational number: 5 / 2
+prod = 0 / 24 
+Continue(y/n)?.....y
+Enter 1st rational number: 0 / 1
+Enter 2nd rational number: 1 / 0
+prod = 0 / 0 
+Continue(y/n)?.....n
+]0;mehrshad@ubuntu: ~/Desktop/Assignment3mehrshad@ubuntu:~/Desktop/Assignment3$ exit
+Script done on Wed 09 Mar 2016 06:20:56 PM PST
